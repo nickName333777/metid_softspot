@@ -1,0 +1,6 @@
+# 데모 앱 실행용 (번들만 읽으므로 RDKit·PyTorch 불필요)
+streamlit>=1.40
+plotly>=5.20
+pandas>=2.0
+pyarrow>=14
+# 번들 생성(scripts/build_demo_bundle.py)은 엔진 환경(상위 폴더 requirements.txt: rdkit 2026.03.3, lightgbm, torch)에서 실행
